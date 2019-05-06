@@ -33,7 +33,7 @@ const destination = program.args.length
   ? path.resolve(process.cwd(), program.args.shift())
   : process.cwd()
 
-const templates = ['basic-js', 'checks-js', 'git-data-js', 'deploy-js', 'basic-ts']
+const templates = ['basic-js', 'advanced-js', 'checks-js', 'git-data-js', 'deploy-js', 'basic-ts']
 
 const prompts = [
   {
